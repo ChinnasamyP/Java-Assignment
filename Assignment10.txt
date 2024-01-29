@@ -1,0 +1,17 @@
+OUTPUT :
+
+d1.leg = 4
+d2.leg = 3
+d1.leg = 0
+
+EXPLANATION :
+
+Two Dog objects d1 and d2 are created, and their leg values are set to 4 and 3, respectively.
+
+The swap method is called with d1 and d2 as arguments. This method attempts to swap the references of d1 and d2, but the actual references in the main method are not modified.
+
+After the swap method call, the System.out.println statements print the leg values of d1 and d2.
+
+The modify method is called with d1 as an argument, which sets the leg value of the d1 to 0.
+
+Finally, the System.out.println statement prints the leg value of d1.
